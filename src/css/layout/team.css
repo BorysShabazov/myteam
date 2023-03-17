@@ -1,0 +1,58 @@
+.team {
+  background-color: var(--logo-wight-color);
+}
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.teammate {
+  flex-basis: calc((100% - 72px) / 4);
+  background-color: var(--main-wight-color);
+  text-align: center;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.teammate-name {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.socials-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 8px;
+}
+
+.socials-item {
+  width: 40px;
+  height: 40px;
+}
+
+.socials-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--logo-blue-color);
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.socials-icon {
+  width: 16px;
+  height: 16px;
+  fill: var(--logo-wight-color);
+}
+
+.socials-link:hover,
+.socials-link:focus {
+  background-color: var(--nav-hover-caolor);
+}

@@ -1,0 +1,133 @@
+.footer-text {
+  margin-top: 16px;
+  width: 264px;
+
+  color: var(--footer-text-color);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.footer {
+  background-color: var(--titel-text-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer-content {
+  display: flex;
+}
+
+.footer-info {
+  margin-right: 120px;
+}
+
+.ftr-social-media {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-wight-color);
+  margin-bottom: 16px;
+}
+
+.ftr-social-list {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.ftr-social-item {
+  width: 40px;
+  height: 40px;
+}
+
+.ftr-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ftr-social-icon {
+  fill: var(--logo-wight-color);
+  height: 24px;
+  width: 24px;
+}
+
+.ftr-social-link:hover,
+.ftr-social-link:focus {
+  background-color: #31d0aa;
+}
+
+.ftr-form {
+  margin-left: auto;
+}
+
+.sub-ftr-text {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-wight-color);
+
+  margin-bottom: 16px;
+}
+
+.subscribe {
+  display: flex;
+  gap: 24px;
+}
+
+.email {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: var(--titel-text-color);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+
+  padding: 8px 16px;
+  height: 40px;
+  width: 264px;
+
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.email:focus {
+  outline: none;
+  border-color: var(--logo-blue-color);
+}
+
+.submit-btn {
+  display: flex;
+  gap: 16px;
+  border-radius: 4px;
+  padding: 8px 24px;
+  border: 0;
+
+  color: var(--main-wight-color);
+  background-color: var(--logo-blue-color);
+  text-align: center;
+  cursor: pointer;
+  border-color: transparent;
+  letter-spacing: 0.04em;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.submit-btn:hover,
+.submit-btn:focus {
+  background-color: var(--nav-hover-caolor);
+}
+
+.ftr-telegram-icon {
+  height: 24px;
+  width: 24px;
+}
